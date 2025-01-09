@@ -1,0 +1,190 @@
+/* eventInfo page */
+.eventimage{
+  box-shadow: #1B3358 0px 0px 30px 10px;
+}
+
+#eventImageSection{
+    float: right;
+    margin: 40px;
+    margin-top: 70px;
+    background: linear-gradient(45deg, #593F91 , #887aa6);
+    padding: 40px;
+    border-radius: 30px;
+   
+}
+#eventDataSection{
+    margin: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 40px;
+ 
+}
+
+
+.Register-btn {
+  background-color: #F1916D;; 
+  color: #F5EFE7; 
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50px;
+  border: 2px groove #F1916D;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s; 
+  width: 300px;
+
+  }
+  .Register-btn:hover {
+  box-shadow: #1B3358 0px 0px 30px 15px;
+  background-color: #eabfaf; 
+  color: #176B87; 
+  }
+
+.section-details {
+  border-top: 2px solid #c4c9cd;
+  padding-top: 20px;
+  margin-bottom: 10px; 
+  padding-bottom: 0px; 
+}
+
+
+.section-mainTitle{
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+.section-details , .section-mainTitle {
+  margin-left: 50px;
+}
+
+  
+/* card */
+#card-section {
+  margin: 20px; 
+ 
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+  perspective: 1000px;
+  margin: 10px; 
+}
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background: linear-gradient(45deg, #06142E , #1B3358);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .card-container{
+    background: linear-gradient(45deg, #593F91 , #887aa6);
+    border-radius: 10px;
+    padding: 40px;
+
+  }
+
+  .subheading{
+    padding: 20px;
+    font-weight: bold;
+    color: #F1916D;
+    text-align: left;
+  }
+
+  .subtext{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #f9f9f9;
+    text-align: left;
+  }
+
+
+.eventContainer {
+  width: 90%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Register-btn {
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+/* ... previous styles ... */
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .section-details,
+  .section-mainTitle {
+    margin: 2px;
+    width: 100%;
+  }
+  #eventImageSection {
+    margin-left: 80px;
+    padding: px;
+    float: none;
+    width: 80%;
+}
+#eventDataSection {
+  margin-left: 120px;
+  padding: 20px;
+  float: none;
+  width: 100%;
+  padding: 40px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+.eventimage {
+  margin-left: 20px;
+  width: 90%;
+}
+
+.flip-card {
+  width: 100%; /* Make each card take the full width */
+  margin-bottom: 20px; /* Add space between the cards */
+}
+
+.flip-card-inner {
+  width: 100%;
+}
+
+.flip-card-front,
+.flip-card-back {
+  width: 100%;
+}
+}

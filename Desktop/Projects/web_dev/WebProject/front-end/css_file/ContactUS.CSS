@@ -1,0 +1,254 @@
+.form-For-user{
+  
+  color: #f1916d;
+  
+ 
+}
+.Desgin_all_content {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: linear-gradient(45deg, #593F91 , #887aa6);}
+
+
+
+.right_side {
+  margin-top: 80px;
+  margin-left: 50px;
+
+  
+   
+  
+}
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.container1{
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border: 1px solid #593F91;
+  height: 100%;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.container1 .title{
+
+  font-size: 25px;
+  font-weight: 500;
+
+}
+.container1 .title::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+  background: linear-gradient(45deg, #593F91 , #887aa6);}
+.content .form-For-user .userInfo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+.form-For-user .userInfo .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+
+.userInfo .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.userInfo.input-box input:focus,
+.userInfo .input-box input:valid
+{
+  border-color: #9b59b6;
+}
+.form-For-user .gender-details .gender-title{
+  font-size: 20px;
+  font-weight: 500;
+ }
+.category{
+   display: flex;
+   width: 80%;
+   margin: 14px 0 ;
+   justify-content: space-between;
+ }
+ form .category label{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+ }
+ form .category label .dot{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+ #dot-1:checked ~ .category label .one,
+ #dot-2:checked ~ .category label .two,
+ #dot-3:checked ~ .category label .three{
+   background: #9b59b6;
+   border-color: #d9d9d9;
+ }
+ form input[type="radio"]{
+   display: none;
+ }
+ form .button{
+   height: 45px;
+   margin: 35px 0
+ }
+ select{
+  
+  height: 30px;
+  width: 200px;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+ }
+
+ form .button input{
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: linear-gradient(135deg, #71b7e6, #9b59b6);
+ }
+.selecter{
+  background-color: #fff;
+  border: rgb(125, 124, 124) 1px solid;
+  border-radius: 5px;
+}
+/* Media  */
+
+@media (max-width: 576px) {
+
+  .Desgin_all_content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .right_side{
+    display: none;
+  }
+  
+  .container1 .title {
+    font-size: 20px;
+  }
+  
+  .form-For-user .userInfo .input-box {
+    width: 100%;
+  }
+  
+  .userInfo .input-box input {
+    font-size: 14px;
+  }
+  
+  .form-For-user .category {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  select {
+    width: 100%;
+  }
+
+  
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+ 
+
+  .Desgin_all_content {
+    display: grid;
+    grid-template-columns: 1fr;
+     }
+
+     .right_side{
+      display: none;
+    }
+  .container1 .title {
+    font-size: 10px;
+  }
+  .container1 .title {
+    font-size: 20px;
+  }
+  
+  .form-For-user .userInfo .input-box {
+    width: 100%;
+  }
+  
+  .userInfo .input-box input {
+    font-size: 14px;
+  }
+  
+  .form-For-user .category {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+ 
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+ 
+ 
+  .container1 .title {
+    font-size: 10px;
+  }
+  .container1 .title {
+    font-size: 20px;
+  }
+  
+  .form-For-user .userInfo .input-box {
+    width: 100%;
+  }
+  
+  .userInfo .input-box input {
+    font-size: 14px;
+  }
+  
+  .form-For-user .category {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+ 
+
+    
+
+    .imageforrightside{
+      width: 400px;
+      margin-top: 100px;
+    
+    }
+
+  
+ 
+}
+
+
+

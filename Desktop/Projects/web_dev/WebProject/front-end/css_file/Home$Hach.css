@@ -1,0 +1,372 @@
+.vision {
+  padding: 40px;
+  margin: 90px 100px 0px 100px;
+  border-radius: 10px;
+  background-color: #473e66;
+}
+
+.as{
+  text-align: right;
+}
+
+.vision-text {
+  width: 550px;
+}
+
+.vision img {
+  width: 320px;
+  height: 390px;
+  border-radius: 15px;
+}
+
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.vision-text h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+span {
+  color: #f1916d;
+}
+
+.vision-text p {
+  line-height: 16px;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.button-text {
+  margin: 70px;
+}
+
+#main-idea {
+  padding: 10px 20px;
+  margin-left: 300px;
+  margin-right: 190px;
+}
+
+.heading {
+  margin: 40px auto;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+}
+
+.heading h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1916d;
+  padding-right: 200px;
+}
+
+.heading-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-image {
+  flex: 1;
+  margin-right: 40px;
+  overflow: hidden;
+}
+
+.logo-image img {
+  max-width: 60%;
+  height: 250px;
+  display: block;
+  transition: 0.5s ease;
+  margin-top: 10px;
+  margin-bottom: 110px;
+}
+
+.logo-image:hover img {
+  transform: scale(1.1);
+}
+
+.about-content {
+  flex: 0.5;
+}
+
+.about-content p {
+  font-size: 1rem;
+  font-style: italic;
+  color: #887aa6;
+  margin-bottom: 4rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 10px 10px rgba(146, 143, 143, 0.756);
+  transition: color 0.3s, text-shadow 0.3s;
+  width: 500px;
+}
+
+.about-content:hover p {
+  transform: scale(1.1);
+}
+
+/* hackathon page style */
+.hackathons {
+  padding: 100px;
+  background-color: #f5efe7;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 5px 20px rgba(1, 1, 1, 20%);
+  padding: 5px;
+  border-radius: 30px;
+  margin: 15px 0px 20px 0px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
+@media (max-width: 992px) {
+
+
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .vision {
+    padding: 20px;
+    margin: 60px 20px 0px 20px;
+  }
+
+  .vision-text {
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  .vision img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .vision-text h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+
+  .vision-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .button-text {
+    margin: 40px;
+  }
+
+  #main-idea {
+    padding: 10px;
+    margin: 0;
+  }
+
+  .heading {
+    margin: 20px auto;
+  }
+
+  .heading h1 {
+    font-size: 32px;
+    padding-right: 0;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-image {
+    margin-right: 0;
+  }
+
+  .logo-image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+  }
+
+  .about-content p {
+    width: 100%;
+  }
+
+  .hackathons {
+    padding: 50px;
+  }
+
+  .card {
+    margin: 10px 0px 15px 0px;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .vision {
+    margin: 20px;
+    padding: 20px;
+  }
+  .vision-text {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .vision img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .vision-text h1 {
+    font-size: 36px;
+  }
+
+  .button-text {
+    margin: 30px;
+  }
+
+  #main-idea {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .heading h1 {
+    font-size: 30px;
+  }
+
+  .about-content p {
+    width: 100%;
+    font-size: 16px;
+    padding: 20px;
+  }
+
+  .hackathons {
+    padding: 30px;
+  }
+
+  .card {
+    margin: 15px 0px;
+    padding: 10px;
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .vision {
+    padding: 20px;
+    margin: 60px 20px 0px 20px;
+  }
+
+  .vision-text {
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  .vision img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .vision-text h1 {
+    margin-bottom: 15px;
+  }
+
+  .vision-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .button-text {
+    margin: 40px;
+  }
+
+  #main-idea {
+    padding: 10px;
+    margin: 0;
+  }
+
+  .heading h1{
+    margin: 20px auto;
+    font-size: 100px;
+  }
+
+  .heading h1 {
+    font-size: 50px;
+    padding-right: 0;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-image {
+    margin-right: 0;
+  }
+
+  .logo-image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+  }
+
+  .about-content p {
+    width: 100%;
+  }
+
+  .hackathons {
+    padding: 50px;
+  }
+
+  .card {
+    margin: 10px 0px 15px 0px;
+  }
+}

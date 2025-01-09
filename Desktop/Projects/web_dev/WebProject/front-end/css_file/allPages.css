@@ -1,0 +1,212 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Page style main */
+#fullPage {
+    background-color: #f4ebec;
+    color: #F5F4F0;
+    padding-top: 1px;
+    padding-bottom: 20px; /* Added margin to the bottom of the container */
+}
+
+/* Text style */
+.section-heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: #F1916D; 
+    margin: 0px;
+}
+
+.section-subheading {
+    font-size: 1rem;
+    font-style: italic;
+    color: #887aa6;
+    margin-bottom: 4rem;
+}
+
+/* Navigation style */
+.navbar {
+    background-color: #f5d7df;
+    padding: 1rem 1rem;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.nav-title,
+.nav-link {
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.nav-title:hover,
+.nav-link:hover {
+    text-shadow: 2px 2px 15px #F5EFE7;
+}
+
+#nav.navbar {
+    box-shadow: 0 10px 10px rgba(146, 143, 143, 0.756);
+}
+
+#nav.navbar.navbarScroll {
+    box-shadow: 0 10px 10px rgba(207, 192, 192, 0.756);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+}
+
+#nav .navbar-nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+#nav .navbar-nav .nav-item {
+    padding: 0 15px;
+}
+
+/* Style button, class "btn" */
+.btnAllPageButton {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background: #f1916d;
+    text-decoration: none;
+    margin: 14px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+@media (max-width: 992px) {
+    .btnAllPageButton {
+
+        font-size: 16px;
+        width: 120px;
+    }
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    .btnAllPageButton {
+
+        font-size: 14px;
+        width: 100px;
+    }
+}
+
+/* Media query for screens with a maximum width of 576px */
+@media (max-width: 576px) {
+    .btnAllPageButton {
+        font-size: 12px;
+        width:130px;
+    }
+}
+.btnAllPageButton:hover {
+    background: #ecc2c2;
+    color: #fff;
+}
+
+.btnAllPageButton:active {
+    color: #fff;
+    text-decoration: none;
+    background: #ecc2c2;
+}
+
+.button {
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+
+/* Footer style */
+#footer {
+    background-color: #473E66;
+    margin-bottom: 20px; /* Added margin to the bottom of the container */
+}
+
+.Copyright {
+    border-top: 2px solid #ffffff;
+    padding: 20px;
+}
+
+.container-fluid {
+    margin-bottom: 0;
+}
+
+/* Icons style */
+.iconStyle:hover {
+    cursor: pointer;
+    stroke-width: 5;
+    margin: 0;
+    transform: rotate(15deg);
+}
+
+/* User form control focus styles */
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8;
+}
+
+/* Profile button styles */
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none;
+}
+
+.profile-button:hover {
+    background: #682773;
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none;
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none;
+}
+
+/* Back button styles */
+.back:hover {
+    color: #682773;
+    cursor: pointer;
+}
+
+/* Label styles */
+.labels {
+    font-size: 16px;
+    font-style: italic;
+    color: #887aa6;
+}
+
+#column1 , #column2  {
+    border-right: 1px solid #dfd9eb;
+}
+.userInfo-text {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+/* about us page and Events */
+#whoAreWe , #EventsContainer{
+    background: linear-gradient(45deg, #593F91 , #887aa6);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 40px;
+  
+}
+#whoAreWe h1, #EventsContainer h1{
+    font-size: 50px;
+    font-weight: bold;
+}
